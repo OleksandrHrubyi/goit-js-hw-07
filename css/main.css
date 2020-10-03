@@ -1,0 +1,23 @@
+.list-gallery {
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+#validation-input {
+  border: 5px solid #bdbdbd;
+  border-color: maroon;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
